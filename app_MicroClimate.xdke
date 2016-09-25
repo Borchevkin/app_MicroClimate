@@ -1,0 +1,99 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "initialAutoPluginCount": 0,
+    "currentBuildConfiguration": "Android",
+    "projectFiles": {},
+    "projectDirectories": {}
+  },
+  "editorTab": {
+    "currentEditorMode": 0
+  },
+  "iot-tab": {
+    "fileStatus": {
+      "LICENSE.md": {
+        "previousModTime": 1474738801263,
+        "modified": 1474738801263,
+        "seen": true,
+        "name": "LICENSE.md"
+      },
+      "README.md": {
+        "previousModTime": 1474738801262,
+        "modified": 1474738801262,
+        "seen": true,
+        "name": "README.md"
+      },
+      "app_MicroClimate.xdk": {
+        "previousModTime": 1474738947118,
+        "modified": 1474738947118,
+        "seen": true,
+        "name": "app_MicroClimate.xdk"
+      },
+      "app_MicroClimate.xdke": {
+        "previousModTime": 1474815749979,
+        "modified": 1474815749979,
+        "seen": true,
+        "name": "app_MicroClimate.xdke"
+      },
+      "icon.png": {
+        "previousModTime": 1474738801263,
+        "modified": 1474738801263,
+        "seen": true,
+        "name": "icon.png"
+      },
+      "main.js": {
+        "previousModTime": 1474815797932,
+        "modified": 1474815797932,
+        "seen": true,
+        "name": "main.js"
+      },
+      "package.json": {
+        "previousModTime": 1474813999391,
+        "modified": 1474813999391,
+        "seen": true,
+        "name": "package.json"
+      },
+      "websockets_client.png": {
+        "previousModTime": 1474738801263,
+        "modified": 1474738801263,
+        "seen": true,
+        "name": "websockets_client.png"
+      },
+      "xdk-publish-meta-data.json": {
+        "previousModTime": 1474738801756,
+        "modified": 1474738801756,
+        "seen": true,
+        "name": "xdk-publish-meta-data.json"
+      },
+      "client/index.css": {
+        "previousModTime": 1474741330579,
+        "modified": 1474741330579,
+        "seen": true,
+        "name": "client/index.css"
+      },
+      "client/index.html": {
+        "previousModTime": 1474739348527,
+        "modified": 1474739348527,
+        "seen": true,
+        "name": "client/index.html"
+      },
+      "client/index.js": {
+        "previousModTime": 1474740434359,
+        "modified": 1474740434359,
+        "seen": true,
+        "name": "client/index.js"
+      },
+      "xdk/project-info.json": {
+        "previousModTime": 1474738801490,
+        "modified": 1474738801490,
+        "seen": true,
+        "name": "xdk/project-info.json"
+      }
+    },
+    "boardFileStatus": {
+      "main.js": {
+        "previousModTime": 1474815802708
+      }
+    }
+  }
+}
