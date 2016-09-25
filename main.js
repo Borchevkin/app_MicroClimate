@@ -55,9 +55,9 @@ function dweetData(sensor) {
 Dog-nail for Edison bluetooth
 */
 function bleDogNail() {
-    var sys = require('sys')
+    var sys = require('sys');
     var exec = require('child_process').exec;
-    function puts(error, stdout, stderr) { sys.puts(stdout) }
+    function puts(error, stdout, stderr) { sys.puts(stdout); }
     exec("/etc/init.d/bluetooth.sh", puts);
 }
 
@@ -86,8 +86,8 @@ var cabinet3 = new Thunderboard(CABINET3_MAC);
 var mraa = require('mraa'); //require mraa
 console.log('MRAA Version: ' + mraa.getVersion()); //write the mraa version to the Intel XDK console
 
-/*
-var mqttt = require('mqtt');
+
+var mqtt = require('mqtt');
 var ID = "cd68889972694cf4b1084e41c96ac1d1"; // TODO fix
 var PROTOCOL = "mqtts";
 var BROKER = "api.artik.cloud";
@@ -97,16 +97,16 @@ URL += ":" + PORT;
 var AUTHMETHOD = ID;
 var AUTHTOKEN = '40261ec348824283944edbb9a9b0da9a'; // TODO fix
 var requireds = { username: AUTHMETHOD, password: AUTHTOKEN };
-var mqttConfig = {'url': URL, 'requireds': requreds};
-var client = mqtt.connect(mqttConfig.url, mqttConfig.requireds);
+var mqttConfig = {'url': URL, 'requireds': requireds};
+var mqttClient = mqtt.connect(mqttConfig.url, mqttConfig.requireds);
 var TOPIC = '/v1.1/messages/'+ID;
 
-var client.on("connect", function() {
+mqttClient.on("connect", function() {
     setInterval(function () {
-        client.publish(TOPIC, JSON.stringify(cabinet1));
-    }, 1000*10);
+        mqttClient.publish(TOPIC, JSON.stringify(cabinet1));
+    }, 100000);
 });
-*/
+
 
 var express = require('express');
 var app = express();

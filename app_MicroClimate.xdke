@@ -30,8 +30,8 @@
         "name": "app_MicroClimate.xdk"
       },
       "app_MicroClimate.xdke": {
-        "previousModTime": 1474815749979,
-        "modified": 1474815749979,
+        "previousModTime": 1474817260233,
+        "modified": 1474817260233,
         "seen": true,
         "name": "app_MicroClimate.xdke"
       },
@@ -42,8 +42,8 @@
         "name": "icon.png"
       },
       "main.js": {
-        "previousModTime": 1474815797932,
-        "modified": 1474815797932,
+        "previousModTime": 1474818427152,
+        "modified": 1474818427152,
         "seen": true,
         "name": "main.js"
       },
@@ -88,11 +88,17 @@
         "modified": 1474738801490,
         "seen": true,
         "name": "xdk/project-info.json"
+      },
+      ".gitignore": {
+        "previousModTime": 1474816315693,
+        "modified": 1474816315693,
+        "seen": true,
+        "name": ".gitignore"
       }
     },
     "boardFileStatus": {
       "main.js": {
-        "previousModTime": 1474815802708
+        "previousModTime": 1474818433677
       }
     }
   }
