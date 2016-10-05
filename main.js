@@ -4,9 +4,9 @@ function SensorPuck(addr) {
             //parsing enviromental data
             this.humidity = ((dataPacket[7] << 8) | dataPacket[6])/10;
             this.temperature = ((dataPacket[9] << 8) | dataPacket[8])/10;
-            this.lux = ((dataPacket[11] << 8) | dataPacket[10]) * 2;
-            this.uv = dataPacket[12]; 
-            this.batteryLevel = dataPacket[13] / 10;
+            this.ambientLight = ((dataPacket[11] << 8) | dataPacket[10]) * 2;
+            this.uvIndex = dataPacket[12]; 
+            this.batteryVoltage = dataPacket[13] / 10;
             return;
         }
         if (dataPacket.length === 18) {
@@ -18,9 +18,9 @@ function SensorPuck(addr) {
     this.address = addr;
     this.temperature = null;
     this.humidity = null;
-    this.lux = null;
-    this.uv = null;
-    this.batteryLevel = null;
+    this.ambientLight = null;
+    this.uvIndex = null;
+    this.batteryVoltage = null;
 }
 
 function Thunderboard(addr) {
